@@ -24,13 +24,7 @@ This project is being used to practice:
 - Constructors (`__init__`)
 - Instance Attributes
 - Instance Methods
-- Encapsulation
-- Object Interaction
-- Code Organization
-- Modular Programming
 - Inheritance
-- Polymorphism
-- Composition
 
 Not every concept may be required for the final game, but the project provides opportunities to experiment with different approaches to object-oriented design.
 
@@ -40,20 +34,19 @@ Not every concept may be required for the final game, but the project provides o
 
 The planned game will include:
 
-- [ ] Two-player gameplay
-- [ ] Player-controlled paddles
-- [ ] Ball movement
-- [ ] Collision detection
-- [ ] Score tracking
-- [ ] Increasing ball speed
-- [ ] Screen boundaries
-- [ ] Game reset after a point
-- [ ] Winning condition
-- [ ] Game over screen
-- [ ] Keyboard controls
-- [ ] Improved game interface
+- [✔️] Two-player gameplay
+- [✔️] Player-controlled paddles
+- [✔️] Ball movement
+- [✔️] Collision detection
+- [✔️] Score tracking
+- [✔️] Increasing ball speed
+- [✔️] Screen boundaries
+- [✔️] Game reset after a point
+- [✔️] Winning condition
+- [✔️] Game over screen
+- [✔️] Keyboard controls
 
-Additional features may be added as the project develops.
+Additional features may be added.
 
 ---
 
@@ -76,7 +69,6 @@ Responsible for:
 
 - Creating the ball
 - Moving the ball
-- Detecting collisions
 - Changing direction
 - Resetting after a point
 
@@ -97,7 +89,12 @@ Responsible for:
 - Detecting game conditions
 - Handling the overall game state
 
-The exact structure may change as I continue learning and improving the project.
+### 🔳 Border
+
+Responsible for:
+
+- Creating a border for the playable area
+- Creating a midline
 
 ---
 
@@ -112,6 +109,6 @@ Pong-OOP/
 ├── paddle.py
 ├── ball.py
 ├── scoreboard.py
-├── game.py
+├── border.py
 │
 └── README.md
