@@ -4,6 +4,12 @@ A classic **Pong game** developed in Python as part of my studies in **Object-Or
 
 This project is being developed as a practical exercise to apply OOP concepts such as classes, objects, attributes, methods, inheritance, and object interaction.
 
+## Play the Game
+
+[🎮 Play Pong Online](https://julianakamura-project.github.io/pong-game/)
+
+Disclaimer: currently, the web version of the game was created using AI to convert my Python code into HTML so that it could be played by everyone. However, I plan to learn HTML as well to make this on my own in the future.
+
 ---
 
 ## 🎯 About the Project
